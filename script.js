@@ -22,3 +22,16 @@ const displayData = data => {
 
 fetchNASAData()
 
+let liked = false;
+
+const toggleLike = () => {
+    let likeButton = document.getElementById('heart')
+    if (!liked) {
+        liked = true
+        likeButton.innerHTML = '<i class="fa fa-heart" aria-hidden="true"></i>'
+    }
+    else {
+        liked = false
+        likeButton.innerHTML = '<i class="fa fa-heart-o" aria-hidden="true"></i>'
+    }
+}

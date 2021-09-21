@@ -44,7 +44,7 @@ body {
 
 p.heart-text {
   font-weight: 20px;
-  background-color: red;
+  background-color: rgb(1, 6, 60);
   color: aliceblue;
   border-radius: 50px;
 }
