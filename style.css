@@ -10,51 +10,50 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  margin: 0;
 }
 
 .jumbotron-fluid {
   background-color: rgb(1, 6, 60);
-  width: 100%;
-  padding: 20px;
+  width: 100vw;
   color: aliceblue;
   text-align: center;
 }
 
 .card {
-  margin-top: 50px;
+  margin-top: 10vw;
   width: 70%;
   text-align: center;
-  width: 65%;
   box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 darkgrey;
   text-align: center;
 }
 
-.picture-explanation-container {
-  display: flex;
+#explanation {
+  margin-top: 5vh;
 }
 
 #picture {
-  width: 50%;
+  width: 100%;
   border-radius: 2rem;
-  margin-right: 1rem;
   border-width: 2rem;
+  margin-top: 5vh;
 }
 
 p.heart-text {
-  font-weight: 20px;
+  padding: 1vh;
+  font-weight: 20vh;
   background-color: rgb(1, 6, 60);
   color: aliceblue;
-  border-radius: 50px;
+  border-radius: 50vw;
 }
 
 .fa-heart-o {
+  margin-top: 2vh;
   color: red;
   cursor: pointer;
 }
 
 .fa-heart {
+  margin-top: 3vh;
   color: red;
   cursor: pointer;
   animation: spin 1s linear 0s 1;
