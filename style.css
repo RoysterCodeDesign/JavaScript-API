@@ -22,6 +22,7 @@ body {
 .card {
   margin-top: 10vw;
   width: 70%;
+  /* height: auto; */
   text-align: center;
   box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 darkgrey;
   text-align: center;
@@ -33,6 +34,7 @@ body {
 
 #picture {
   width: 100%;
+  height: auto;
   border-radius: 2rem;
   border-width: 2rem;
   margin-top: 5vh;
@@ -46,20 +48,20 @@ p.heart-text {
   border-radius: 50vw;
 }
 
-.fa-heart-o {
+.fa-regular {
   margin-top: 2vh;
   color: red;
   cursor: pointer;
 }
 
-.fa-heart {
+.fa-solid {
   margin-top: 3vh;
   color: red;
   cursor: pointer;
   animation: spin 1s linear 0s 1;
 }
 
-@-webkit-keyframes spin {
+@keyframes spin {
   from {
     transform: rotate(0deg);
   }

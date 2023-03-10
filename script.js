@@ -28,10 +28,10 @@ const toggleLike = () => {
     let likeButton = document.getElementById('heart')
     if (!liked) {
         liked = true
-        likeButton.innerHTML = '<i class="fa fa-heart" aria-hidden="true"></i>'
+        likeButton.innerHTML = '<i class="fa-solid fa-heart" aria-hidden="true"></i>'
     }
     else {
         liked = false
-        likeButton.innerHTML = '<i class="fa fa-heart-o" aria-hidden="true"></i>'
+        likeButton.innerHTML = '<i class="fa-regular fa-heart" aria-hidden="true"></i>'
     }
 }
